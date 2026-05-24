@@ -1,0 +1,43 @@
+```
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Dependencies
+.pio/
+.platformio/
+lib/
+deps/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+*.userosscache
+*.suo
+*.c9/
+*_cache/
+```
